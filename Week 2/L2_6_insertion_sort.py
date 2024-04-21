@@ -20,4 +20,5 @@ print(InsertionSort([121,32,5,1,66,3,99,32,43]))
 #Best Case Time Complexity = O(n) => List already sorted, Inset stops in 1 step
 #Average Case Time Complexity = O(n^2)
 #Worst Case Time Complexity = O(n^2)
-
+#Stable = Yes
+#Sort in Place = Yes
