@@ -20,3 +20,5 @@ print(SelectionSort([121,32,5,1,66,3,99,32,43]))
 #Best Case Time Complexity = O(n^2)
 #Average Case Time Complexity = O(n^2)
 #Worst Case Time Complexity = O(n^2)
+# Stable = No
+# Sort in Place = Yes
