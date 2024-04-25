@@ -32,15 +32,15 @@ def linear_search(L,k):
 
 # So, it's correct implemetation:
 # Iterartive Implementation
-def binarysearch(L, v):
+def binarysearch(L, v):  #v = target element
     low = 0
     high = len(L) - 1
-    while (low <= high):
+    while low <= high: 
         mid = (low + high) // 2
-        if L[mid] < v:
-            low = mid - 1
-        elif L[mid]>v:
-            high=mid - 1
+        if L[mid ] < v:
+            low = mid  + 1
+        elif L[mid ] > v:
+            high = mid  - 1
         else:
             return mid
     return False
